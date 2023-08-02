@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('./../img/index-img/veg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+.groco {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 17px;
+}
+
+span a {
+    text-decoration: none;
+    color: black;
+    padding: 23px;
+
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    padding: 3px;
+}
+
+
+
+
+.btn-contact {
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(41, 56, 170);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(231, 86, 86);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+
+
+
+.main-container-homepage{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+          url('../img/index-img/background-image.jpg');
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+}
+
+.heading-1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 80px;
+}
+
+.img-bg{
+    height: 300px;
+    width: 500px;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+   
+}
