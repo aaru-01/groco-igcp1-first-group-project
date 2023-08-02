@@ -1,0 +1,67 @@
+          
+          *{
+            padding: 0;
+            margin: 0;
+          }
+          
+          img{
+            background-color:green ;
+          }
+          .login{
+            color:darkblue;
+          }
+          #car{
+            color:black;
+            font-size: 30px;
+          }
+          .heading{
+          background-color:yellow;
+        }
+
+          h1{
+            color:white;
+          }
+          h2{
+            color:red;
+          }
+        .main{
+            background-image: url(./../img/about-img/grocery-store.jpg);
+            height: 100vh;
+            width:100%;
+            background-size: cover;
+           
+        }
+        .main-contain{
+            font-size: 30px;
+            text-align: center;
+            position: relative;
+            top:170px;
+            left: 530px;
+            background-color: #3f074c;
+            box-shadow: 0 3px 10px 6px white;
+            height: 350px;
+            width:330px;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        
+        .btn{
+            font-size: 30px;
+            padding: 16px;
+            margin: 50px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        .btn:hover{
+            background-color: red;
+            border-radius: 25px;
+
+        }
+
+        .text{
+            font-size: 15px;
+            margin: auto;
+            padding: auto;
+        }
