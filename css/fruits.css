@@ -2,6 +2,80 @@
     margin: 0;
     padding: 0;
 }
+
+.main-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 3px;
+}
+
+.groco {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.img-basket {
+    height: 40px;
+    position: relative;
+    left: 47px;
+    top: 2px;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 17px;
+}
+
+span a {
+    text-decoration: none;
+    color: black;
+    padding: 23px;
+}
+
+.login-logo {
+    width: 30px;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+    margin-right: 20px;
+    height: 26px;
+}
+
+.btn-contact {
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(41, 56, 170);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(231, 86, 86);
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+
+}
+
 .header-text {
     text-align: center;
     font-size: 60px;
