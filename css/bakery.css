@@ -36,7 +36,7 @@
 
 .image-product {
     height: 200px;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
@@ -53,8 +53,18 @@
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 110px;
    
+}
+
+.heading3
+{
+    margin-left: 90px; 
+}
+
+.heading4
+{
+    margin-left: 130px;    
 }
 
 .add-to-card-btn-1 {

@@ -36,9 +36,46 @@
 
 .image-product {
     height: 200px;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-top: 20px;
 }
+.image-banana {
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.image-grapes
+{
+    height: 150px;
+    margin-left: 30px;
+    margin-top:50px;  
+}
+
+.image-pineaaple
+{
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 180px;
+}
+
+.watemelon
+{
+height: 200px;
+margin-left: 10px;
+}
+
+.heading1
+{
+  margin-left: 80px;  
+}
+
+.heading2
+{
+  margin-left: 100px;  
+}
+
 
 .image-main-products {
     display: block;
@@ -48,12 +85,12 @@
 
 .price-caabage {
    margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 110px;
     color: gray;
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 110px;
    
 }
 
