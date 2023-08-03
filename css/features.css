@@ -1,6 +1,4 @@
-
-
-/* navbar */
+/* navi-bar */
 
 * {
     margin: 0;
@@ -87,75 +85,76 @@ span a {
 
 
 
-/* background-img */
 
 
-.main-container-homepage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
-        url('../img/index-img/background-image.jpg');
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
 
-.heading-1 {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-    font-size: 80px;
-}
+/* features */
 
-.img-bg {
-    height: 300px;
-    width: 500px;
-    border: 1px solid white;
-    margin-left: 40px;
-    margin-top: 40px;
-    border-radius: 20px 20px 20px 20px;
-    border: none;
-
-}
-
-.product-button-container {
-    margin-left: 250px;
-}
-
-.btn-prod {
-    padding: 15px;
-    width: 200px;
-    margin-top: 80px;
-    border: none;
-    border-radius: 10px;
-    background-color: orangered;
-    color: aliceblue;
-    font-size: larger;
-}
-
-.heading-container{
-    margin-left: 50px;
-}
-
-.homepage-content{
+.main-container-feature{
     display: flex;
     flex-direction: row;
+    justify-content:space-evenly;
+}
+.card1{
+    height: 455px;
+    width: 340px;
+    color: black;
+    background-color:whitesmoke;
+    box-shadow: 0 4px 6px 4px rgb(134, 134, 134);
+    margin-top:60px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 
-.homepage-tagline{
-    margin-top: 100px;
-    color: white;
+.card1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
-.homepage-name-img{
+.features{
+    font-size: 40px;
     text-align: center;
-}
-.footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    color: white;
-    margin-top: 20px;
-    height: 200px;
-    padding: 20px;
-    font-size: 25px;
+    color: whitesmoke;
+    background-color: #34013f;
 }
 
+.div-card{
+    height: 422px;
+    width: 318px;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+    top:-5px;
+   right: 10px;
+   }
+
+.img-veg{
+    height: 300px;
+    width: 339px;
+    background-color: aliceblue;
+    border-radius:0 0 20px 20px;
+}
+.fresh-veg{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -5px;
+
+}
+.organic{
+    position: relative;
+    top:30px;
+   left: 35px;
+   
+}
+
+.btn-next-page{
+        margin-left: 550px;
+        padding: 15px;
+        width: 200px;
+        margin-top: 80px;
+        border: none;
+        border-radius: 10px;
+        background-color: orangered;
+        color: aliceblue;
+        font-size: larger;
+    }
