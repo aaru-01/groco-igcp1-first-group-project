@@ -13,8 +13,10 @@
     justify-content: space-evenly;
     background-color: white;
     position: sticky;
+    top: 0px;
     width: 100%;
     padding: 3px;
+    z-index: 50;
 }
 
 .groco {
@@ -22,6 +24,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
 }
+
 .img-basket {
     height: 40px;
     position: relative;
@@ -90,71 +93,138 @@ span a {
 
 /* features */
 
-.main-container-feature{
+.main-container-feature {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.card1{
+
+.card1 {
     height: 455px;
     width: 340px;
     color: black;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 0 4px 6px 4px rgb(134, 134, 134);
-    margin-top:60px;
+    margin-top: 60px;
     border-radius: 10px;
     margin-left: 20px;
 }
 
-.card1:hover{
+.card1:hover {
     transition: 0.5s;
     transform: scale(1.1);
 }
 
-.features{
+.features {
     font-size: 40px;
     text-align: center;
     color: whitesmoke;
     background-color: #34013f;
 }
 
-.div-card{
+.div-card {
     height: 422px;
     width: 318px;
     border: 1px solid black;
     margin: 20px;
     position: relative;
-    top:-5px;
-   right: 10px;
-   }
+    top: -5px;
+    right: 10px;
+}
 
-.img-veg{
+.img-veg {
     height: 300px;
     width: 339px;
     background-color: aliceblue;
-    border-radius:0 0 20px 20px;
+    border-radius: 0 0 20px 20px;
 }
-.fresh-veg{
+
+.fresh-veg {
     text-align: center;
     font-size: 30px;
     margin-top: -5px;
 
 }
-.organic{
+
+.organic {
     position: relative;
-    top:30px;
-   left: 35px;
-   
+    top: 30px;
+    left: 35px;
+
 }
 
-.btn-next-page{
-        margin-left: 550px;
-        padding: 15px;
-        width: 200px;
-        margin-top: 80px;
-        border: none;
-        border-radius: 10px;
-        background-color: orangered;
-        color: aliceblue;
-        font-size: larger;
-    }
+#btn-read-page {
+    margin-left: 550px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: aliceblue;
+    font-size: larger;
+    scroll-behavior: smooth;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: #34013f;
+    color: white;
+    margin-top: 20px;
+    height: 280px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.tagline-footer {
+    font-size: 15px;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-left: 8px;
+    position: relative;
+    top: 45px;
+    box-shadow: 0 3px 4px 2px rgb(105, 103, 103);
+}
+
+.list-links {
+    margin-left: 30px;
+    font-size:20px ;
+}
+
+ul li a {
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+.address{
+    font-size:20px;
+    
+    
+}
+.multi{
+    margin-left: 37px;
+}
+
+
+
+
+
+
+
+
+/* .groco-footer{
+    color: whitesmoke;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin-top: 20px;
+    height: 45px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: -45px;
+   
+  } */
