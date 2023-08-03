@@ -35,12 +35,12 @@
             font-size: 30px;
             text-align: center;
             position: relative;
-            top:170px;
+            top:104px;
             left: 530px;
             background-color: #3f074c;
             box-shadow: 0 3px 10px 6px white;
-            height: 350px;
-            width:330px;
+            height: 450px;
+            width:400px;
             color: white;
             padding: 10px;
             margin: 10px;
@@ -49,9 +49,9 @@
         
         .btn{
             font-size: 30px;
-            padding: 16px;
+            padding: 7px;
             margin: 50px;
-            border-radius: 50%;
+            
             background-color: white;
         }
         .btn:hover{
@@ -61,7 +61,25 @@
         }
 
         .text{
-            font-size: 15px;
+            font-size: 22px;
             margin: auto;
             padding: auto;
+            margin-top: 10px;
         }
+       .logo{
+        border-radius:50%;
+        margin-left: 10px;
+        position: relative;
+        left:670px;
+        bottom: 20px;
+       
+        box-shadow: 0 3px 4px 2px white;
+       }
+       .regi{
+        color: white;
+        border-bottom: none;
+        font-size: 20px;
+        position: relative;
+        left: 800px;
+        bottom: 50px;
+       }
