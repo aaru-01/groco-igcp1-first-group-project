@@ -102,11 +102,11 @@
     border-radius: 50%;
     margin-left: 10px;
     position: relative;
-    left: 50px;
+    left: 20px;
     top: 15px;
 
 
-    box-shadow: 0 3px 4px 2px #34013f;
+    box-shadow: 0 2px 2px 2px #34013f;
 }
 
 .main-logo {

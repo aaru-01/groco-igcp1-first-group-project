@@ -97,6 +97,30 @@ span a {
     border: none;
    
 }
+.contact-us{
+   border: 1px solid #34013f;
+    height: 600px;
+    width:500px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 100px;
+    text-align: center;
+   
+    box-shadow:0 2px 2px 2px ;
+}
+.contact{
+    padding: 15px; 
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.text-nm{
+    display: block;
+    font-size: 25px;
+    color: black;
+}
 
 
 
@@ -109,7 +133,7 @@ span a {
 .main-contain{
    
     width: 100%;
-    height: 700px;
+    height: 500px;
      margin: 0;
      padding: 0;
 }
@@ -130,9 +154,24 @@ span a {
    box-shadow: 0 3px 10px 3px;
 }
 .text1{
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-top: 30px;
     margin-left: 20px;
+}
+.submit-btn{
+    font-size: 25px;
+    padding: 7px;
+    margin: 7px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: #34013f;
+    color: white;
+}
+.submit-btn:hover{
+    background-color: red;
+    color: black;
 }
 .chat-btn{
     font-size: 30px;
@@ -177,23 +216,23 @@ span a {
 }
 .logo{
     border-radius:50%;
-    margin-left: 10px;
-    position: relative;
-   
-    bottom: 20px;
-    top:150px;
-   
+    margin-left: 30px;
+     bottom: 20px;
     box-shadow: 0 3px 4px 2px #34013f;
+    margin-bottom: 100px;
+    position: relative;
+    bottom:100px;
+    left: 200px;
    }
-.main-logo{
-    justify-content: space-evenly;
-    display: flex;
-}
+
 .map{
-    margin-top: 230px;
+    margin-left: 650px;
+    position: relative;
+    bottom: 500px;
+    box-shadow: 0 3px 5px 3px #34013f;
+
   
 }
-.logo{
-    margin-left: 50px;
-}
+
+
 
