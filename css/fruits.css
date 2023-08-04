@@ -178,6 +178,12 @@ margin-left: 10px;
     background-color: #340138;
     color: white;
     cursor: pointer;
+ 
+
+}
+.apple-more{
+    text-decoration-line: none;
+    color: aliceblue;
 }
 
 .main-container {
