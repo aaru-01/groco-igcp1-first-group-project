@@ -1,14 +1,117 @@
-          
-          *{
-            padding: 0;
-            margin: 0;
-          }
+
+* {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('./../img/index-img/veg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  padding: 3px;
+  z-index: 50;
+}
+
+.groco {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+bottom: 32px;
+}
+
+.img-basket {
+  height: 40px;
+  left:400px;
+  background-color:white;
+}
+
+.nav_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 17px;
+}
+
+span a {
+  text-decoration: none;
+  color: black;
+  padding: 23px;
+}
+
+.login-logo {
+  width: 30px;
+  position: relative;
+  right: 20px;
+  bottom: 4px;
+  margin-right: 20px;
+  height: 26px;
+}
+
+.btn-contact {
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.btn {
+  color: white;
+  background-color:#301836;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(231, 86, 86);
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+        .groco {
+          color: black;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          margin-top: 40px;
+          margin-left: 200px;
+      }
+      /* .img-basket {
+          height: 40px;
+          position: relative;
+          left: 47px;
+          top: 2px;
+      }
+         */
+        
           
           img{
             background-color:green ;
           }
           .login{
-            color:darkblue;
+            color:#301836;
           }
           #car{
             color:black;
@@ -29,6 +132,9 @@
             height: 100vh;
             width:100%;
             background-size: cover;
+            margin-bottom: 100px;
+            position: relative;
+            bottom: 30px;
            
         }
         .main-contain{
@@ -48,7 +154,7 @@
         }
         
         
-        .btn{
+        .login-btn{
             font-size: 30px;
             padding: 7px;
             margin: 50px;
@@ -56,10 +162,10 @@
             background-color: white;
             border-bottom: 90px;
             position: relative;
-            top:25px;
+           
             
         }
-        .btn:hover{
+        .login-btn:hover{
             background-color: red;
             border-radius: 25px;
 
@@ -87,7 +193,7 @@
         font-size: 20px;
         position: relative;
         left: 840px;
-        bottom: 170px;
+       bottom: 80px;
         text-decoration:none;
        }
 
@@ -96,10 +202,13 @@
         justify-content:space-around;
         background-color: #34013f;
         color: white;
-        margin-top: 50px;
-        height: 280px;
-        padding: 20px;
+       
+        height: 300px;
+        
+        margin-bottom: 0;
         font-size: 25px;
+        position: relative;
+        bottom: 50px;
     }
     
     .tagline-footer {
