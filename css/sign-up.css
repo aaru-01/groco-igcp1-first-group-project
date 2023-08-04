@@ -1,8 +1,274 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.heading{
-    font-size: 30px;
-    text-align: center;
-}
+    /* background-image: url('./../img/index-img/veg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding: 3px;
+    z-index: 50;
+  }
+  
+  .groco {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 32px;
+  }
+  
+  .img-basket {
+    height: 40px;
+    position: relative;
+    left: 260px;
+    top: 2px;
+    background-color:white;
+  }
+  
+  .nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 17px;
+  }
+  
+  span a {
+    text-decoration: none;
+    color: black;
+    padding: 23px;
+  }
+  
+  .login-logo {
+    width: 30px;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+    margin-right: 20px;
+    height: 26px;
+  }
+  
+  .btn-contact {
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  
+  .btn {
+    color: white;
+    background-color:#301836;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+  
+  }
+  
+  .btn:hover {
+    color: white;
+    background-color: rgb(231, 86, 86);
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+          .groco {
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 40px;
+            margin-left: 200px;
+        }
+        /* .img-basket {
+            height: 40px;
+            position: relative;
+            left: 47px;
+            top: 2px;
+        }
+           */
+          
+            
+            img{
+              background-color:green ;
+            }
+            .login{
+              color:#301836;
+            }
+            #car{
+              color:black;
+              font-size: 30px;
+            }
+            .heading{
+            background-color:yellow;
+          }
+  
+            h1{
+              color:white;
+            }
+            h2{
+              color:red;
+            }
+            .head{
+    
+                font-size: 80px;
+                text-align: center;
+                position: relative;
+                margin-bottom: 160px;
+                background-color: #3f074c;
+                color: white;
+                height: 120px;
+                
+            }
+          .main{
+             
+              height: 100vh;
+              width:100%;
+              background-size: cover;
+            
+              position: relative;
+             
+             
+          }
+          .main-contain{
+              font-size: 30px;
+              text-align: center;
+              position: relative;
+              /* top:104px; */
+              left: 300px;
+              background-color: #3f074c;
+              box-shadow: 0 3px 10px 6px white;
+              height: 550px;
+              width:470px;
+              color: white;
+              padding: 10px;
+              margin: 10px;
+              border-radius: 30px;
+          }
+          .login-logo1{
+            border-radius: 50%;
+           height: 50px;
+
+          }
+          
+          .login-btn{
+              font-size: 30px;
+              padding: 7px;
+              margin: 10px;
+              border-radius: 20px;
+              background-color: white;
+              border-bottom: 10px;
+             position: relative;
+             top:30px;
+             
+              
+          }
+          .login-btn:hover{
+              background-color: red;
+              border-radius: 25px;
+  
+          }
+  
+          .text{
+              font-size: 25px;
+              margin: 7px;
+              padding: 7px;
+              margin-top: 10px;
+          }
+         .logo{
+          border-radius:50%;
+          margin-left: 10px;
+          position: relative;
+          left:430px;
+          bottom: 130px;
+         
+          box-shadow: 0 2px 2px 2px white;
+         }
+         .img{
+            background-color: white;
+            
+           margin-top: -100px;
+
+         }
+         
+         .regi{
+          color:white;
+          border-bottom: none;
+          font-size: 20px;
+          position: relative;
+          left: 620px;
+         bottom: 170px;
+          text-decoration:none;
+         }
+  
+         .footer {
+          display: flex;
+          justify-content:space-around;
+          background-color: #34013f;
+          color:white;
+         
+          height: 300px;
+          
+          margin-bottom: 0;
+          font-size: 25px;
+          position: relative;
+         
+      }
+      
+      .tagline-footer {
+          font-size: 15px;
+      }
+      
+      .logo1{
+          border-radius: 50%;
+          position: relative;
+          top: 45px;
+          box-shadow: 0 3px 4px 2px rgb(105, 103, 103);
+          left:-30px;
+      }
+      
+      .list-links {
+          margin-left: 30px;
+          font-size:20px ;
+          color: white;;
+      }
+      
+      ul li a {
+          text-decoration-line: none;
+          color: aliceblue;
+      }
+      
+      .address{
+          font-size:20px;
+          
+          
+      }
+      .multi{
+          /* margin-left: 37px; */
+      }
+      
+      .container{
+        display: flex;
+      }
+      .home-contaient{
+        color: white;
+      }
