@@ -1,8 +1,8 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
 }
+
 
 .main-header {
     display: flex;
@@ -79,8 +79,70 @@ span a {
 
 
 
+.apple-txt
+{
+    text-align: center;
+    font-size: 60px;
+    /* margin: 10px; */
+}
+.header-text {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+.header-name
+{
+    background-color: #340138;
+    padding: 20px;
+   }
+.aaple-info-box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.paragraph
+{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.paragraph-txt
+{
+    font-size: 20px;
+    margin: 20px;
+}
+.paragraph-txt2
+{
+    font-size: 20px;
+    margin: 20px;
+}
 
 
+.fact-txt
+{
+    font-size: 30px;
+    padding: 20px;
+}
+.apple-info-img
+{
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 5px gray;
+    margin: 20px;
+}
+.fact-nutri-txt
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 185px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .footer {
     display: flex;
     justify-content:space-around;
