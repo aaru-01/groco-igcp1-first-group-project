@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .main-header {
     display: flex;
     justify-content: space-evenly;
@@ -77,114 +78,72 @@ span a {
 }
 
 
-.header-text {
+
+.apple-txt
+{
     text-align: center;
     font-size: 60px;
+    /* margin: 10px; */
+}
+.header-text {
+    text-align: center;
+    font-size: 30px;
     color: white;
+    margin: 10px;
 }
 .header-name
 {
     background-color: #340138;
-    /* margin-top: 10px; */
-}
-
-.fruits-image
+    padding: 20px;
+   }
+.aaple-info-box
 {
-    height: 80px;
-    width: 100px;
-    position: relative;
-    top: 20px;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.header-main-container {
-    height: 100vh;
-}
-
-.parent-container {
-    /* border: 1px solid black; */
-    border-radius: 20px;
-    height: 400px;
-    width: 320px;
-    box-shadow: 0 6px 8px 1px rgb(70, 69, 69);
+.paragraph
+{
+    font-size: 30px;
     margin-top: 30px;
-
 }
-
-.image-product {
-    height: 200px;
-    margin-left: 60px;
-    margin-top: 20px;
-}
-
-.image-main-products {
-    display: block;
-
-
-}
-
-.price-caabage {
-   margin-top: 10px;
-    margin-left: 100px;
-    color: gray;
-}
-
-.heading {
-    margin-left: 110px;
-   
-}
-
-.add-to-card-btn-1 {
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 2px solid #340138;
-    background-color: #340138;
-    color: white;
-    cursor: pointer;
-}
-
-.main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.main-container2 
+.paragraph-txt
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top:100PX;
-    }
-
-.main-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    
+    font-size: 20px;
+    margin: 20px;
 }
-.btna{
-    color: aliceblue;
-    text-decoration: none;
-}
-.image-onion {
-    height: 200px;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-.image-brinjal
+.paragraph-txt2
 {
-    height: 200px;
-    width: 250px;
-    margin-left: 30px;
-    margin-top: 20px;   
+    font-size: 20px;
+    margin: 20px;
 }
 
+
+.fact-txt
+{
+    font-size: 30px;
+    padding: 20px;
+}
+.apple-info-img
+{
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 5px gray;
+    margin: 20px;
+}
+.fact-nutri-txt
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 185px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .footer {
     display: flex;
     justify-content:space-around;
