@@ -170,7 +170,7 @@ span a {
     color: white;
 }
 .submit-btn:hover{
-    background-color: red;
+    background-color: orangered;
     color: black;
 }
 .chat-btn{
@@ -184,7 +184,7 @@ span a {
     left:150px;
 }
 .chat-btn:hover{
-    background-color: red;
+    background-color: orangered;
     border-radius: 20px;
 }
 .main-head{
