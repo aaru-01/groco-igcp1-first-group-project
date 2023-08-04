@@ -111,7 +111,7 @@ span a {
 }
 
 .card1:hover {
-    transition: 0.5s;
+    transition: 0.8s;
     transform: scale(1.1);
 }
 

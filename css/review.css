@@ -23,7 +23,7 @@
     margin-top: 10px;
 }
 
-.img-basket {
+.img-basket{
     height: 40px;
     position: relative;
     left: 47px;
@@ -59,9 +59,9 @@ span a {
 
 .btn {
     color: white;
-    background-color: rgb(41, 56, 170);
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color:#34013f;
+    padding-left: 19px;
+    padding-right: 19px;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 20px;
@@ -79,5 +79,121 @@ span a {
     border-radius: 20px;
     border: none;
 
+}
+
+
+
+
+/* cards */
+
+.main-container-review{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.card1 {
+    height: 330px;
+    width: 450px;
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 6px 4px rgb(134, 134, 134);
+    margin-top: 60px;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+}
+/* 
+.card1:hover {
+    transition: 0.8s;
+    transform: scale(1.1);
+} */
+
+.features {
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #34013f;
+}
+
+.div-card {
+    height: 422px;
+    width: 318px;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+    top: -5px;
+    right: 10px;
+}
+
+.card1-images {
+    height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 0 0 20px 20px;
+    margin-left: 15px;
+    margin-top: 26px;
+     border-radius:50%;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px 3px rgb(151, 149, 149);
+    margin-top: 20px;
+}
+
+.img-container-review{
+    background-color:#34013f;
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+    
+}
+/* .img-info-review{
+    background-color: #34013f;
+    height: 301px;
+    border-radius: 0px 0px 10px 10px;
+} */
+
+
+
+
+
+
+.images-review{
+    text-align: center;
+    font-size: 29px;
+    color:whitesmoke;
+   margin-left: 167px;
+   margin-top: -110px;
+   
+
+}
+.images-review1{
+    text-align: center;
+    font-size: 27px;
+    color:whitesmoke;
+   margin-left: 167px;
+   margin-top: -110px;
+   
+
+}
+.star{
+    font-size: 25px;
+    margin-left: 29px;
+   
+}
+
+.info-review{
+    position: relative;
+    top: 80px;
+    left: 60px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+
+.review {
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #34013f;
 }
 
