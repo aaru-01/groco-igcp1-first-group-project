@@ -186,6 +186,11 @@ span a {
     background-color: #340138;
     color: white;
     cursor: pointer;
+   
+}
+.btna{
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .main-container {
