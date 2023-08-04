@@ -189,3 +189,44 @@ span a {
     margin-left: 60px;
     margin-top: 20px;   
 }
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: #34013f;
+    color: white;
+    margin-top: 20px;
+    height: 280px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.tagline-footer {
+    font-size: 15px;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-left: 8px;
+    position: relative;
+    top: 45px;
+    box-shadow: 0 3px 4px 2px rgb(105, 103, 103);
+}
+
+.list-links {
+    margin-left: 30px;
+    font-size:20px ;
+}
+
+ul li a {
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+.address{
+    font-size:20px;
+    
+    
+}
+.multi{
+    margin-left: 37px;
+}
