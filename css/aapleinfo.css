@@ -1,4 +1,5 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
 }
@@ -76,139 +77,10 @@ span a {
 
 }
 
-.header-text {
-    text-align: center;
-    font-size: 60px;
-    color: white;
-}
-.header-name
-{
-    background-color: #340138;
-}
-
-.fruits-image
-{
-    height: 80px;
-    width: 100px;
-    position: relative;
-    top: 20px;
-   
-}
-.header-main-container {
-    height: 100vh;
-}
-
-.parent-container {
-    /* border: 1px solid black; */
-    border-radius: 20px;
-    height: 400px;
-    width: 320px;
-    box-shadow: 0 6px 8px 1px rgb(70, 69, 69);
-    margin-top: 30px;
-
-}
-
-.image-product {
-    height: 200px;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-.image-banana {
-    height: 200px;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.image-grapes
-{
-    height: 150px;
-    margin-left: 30px;
-    margin-top:50px;  
-}
-
-.image-pineaaple
-{
-   
-    margin-left: 20px;
-    margin-top: 20px;
-    height: 180px;
-}
-
-.watemelon
-{
-height: 200px;
-margin-left: 10px;
-}
-
-.heading1
-{
-  margin-left: 80px;  
-}
-
-.heading2
-{
-  margin-left: 100px;  
-}
 
 
-.image-main-products {
-    display: block;
 
 
-}
-
-.price-caabage {
-   margin-top: 10px;
-    margin-left: 110px;
-    color: gray;
-}
-
-.heading {
-    margin-left: 110px;
-   
-}
-
-.add-to-card-btn-1 {
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 2px solid #340138;
-    background-color: #340138;
-    color: white;
-    cursor: pointer;
-}
-
-.main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.main-container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top:100PX;
-    
-}
-
-.main-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    
-}
-
-.image-onion {
-    height: 200px;
-    margin-left: 30px;
-    margin-top: 20px;
-}
 .footer {
     display: flex;
     justify-content:space-around;
