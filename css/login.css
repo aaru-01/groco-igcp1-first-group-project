@@ -76,7 +76,7 @@
         margin-left: 10px;
         position: relative;
         left:670px;
-        bottom: 20px;
+        bottom: 40px;
        
         box-shadow: 0 2px 2px 2px white;
        }
@@ -87,5 +87,48 @@
         font-size: 20px;
         position: relative;
         left: 840px;
-        bottom: 140px;
+        bottom: 170px;
        }
+
+       .footer {
+        display: flex;
+        justify-content:space-around;
+        background-color: #34013f;
+        color: white;
+        margin-top: 50px;
+        height: 280px;
+        padding: 20px;
+        font-size: 25px;
+    }
+    
+    .tagline-footer {
+        font-size: 15px;
+    }
+    
+    .logo1{
+        border-radius: 50%;
+        position: relative;
+        top: 45px;
+        box-shadow: 0 3px 4px 2px rgb(105, 103, 103);
+        left:-30px;
+    }
+    
+    .list-links {
+        margin-left: 30px;
+        font-size:20px ;
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        color: aliceblue;
+    }
+    
+    .address{
+        font-size:20px;
+        
+        
+    }
+    .multi{
+        margin-left: 37px;
+    }
+    
