@@ -6,6 +6,11 @@
 
 #Group Member Works
 ## Phase | 
-## Homepage- Navbar and Footer :- @aaru-01
-## Product Cards :- @mansidethe
-## Category cards :- @prajakta
+## Homepage-header and footer :- @aaru-01
+## Product Cards-6 pages :- @mansidethe
+## Category cards :- @prajkta
+
+##phase ||
+##Feature and Review:-@aaru-01
+##inforamtion pages:-@mansidethe
+##login form and add to card-@prajkta
