@@ -268,5 +268,88 @@ ul li a {
     margin-left: 37px;
 }
 
+@media screen and (min-width: 600px) and (max-width: 800px){
+    .contact-us{
+        margin-top: 250px;
+         height: 500px;
+         width:350px;
+}
+.map{
+    margin-left: 2px;
+    position: relative;
+    margin-top: 500px;
+   margin-bottom: 5px;
+    box-shadow: 0 3px 5px 3px #34013f;
 
+  
+}
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: #34013f;
+    color: white;
+    margin-top: 600px;
+    height: 350px;
+    padding: 20px;
+    font-size: 25px;
+    
+}
 
+.tagline-footer {
+    font-size: 15px;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-left: 8px;
+    position: relative;
+    top: 45px;
+    box-shadow: 0 3px 4px 2px rgb(105, 103, 103);
+}
+
+.list-links {
+    margin-left: 30px;
+    font-size:20px ;
+}
+
+ul li a {
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+.address{
+    font-size:20px;
+    
+    
+}
+.multi{
+    margin-left: 37px;
+}
+
+.img{
+    position: relative;
+    left:30px;
+   bottom: 5px;
+   top:180px;
+    box-shadow: 0 3px 10px 3px;
+ }
+ .chat-btn{
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    color: #34013f;
+    position: relative;
+   top:70px;
+    left:150px;
+}
+
+.groco {
+    color: rgb(13, 6, 62);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:5px;
+   position: relative;
+   left: 150px;
+   top: 20px;
+
+}
