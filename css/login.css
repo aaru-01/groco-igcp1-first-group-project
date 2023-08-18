@@ -127,8 +127,19 @@ span a {
           h2{
             color:red;
           }
+          .head{
+    
+            font-size: 80px;
+            text-align: center;
+            position: relative;
+            margin-bottom: 160px;
+            background-color: #3f074c;
+            color: white;
+            height: 120px;
+            
+        }
         .main{
-            background-image: url(./../img/about-img/grocery-store.jpg);
+            /* background-image: url(./../img/about-img/grocery-store.jpg); */
             height: 100vh;
             width:100%;
             background-size: cover;

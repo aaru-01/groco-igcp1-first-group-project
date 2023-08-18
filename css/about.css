@@ -157,6 +157,7 @@ span a {
 .about-img {
     position: relative;
     top: 10px;
+    display: flex;
 
 }
 
@@ -236,4 +237,36 @@ ul li a {
 }
 .multi{
     margin-left: 37px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+
+    .text {
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        color:#34013f;
+        left: 100px;
+        border-bottom: 6px double orangered;
+    }
+    .head {
+        font-size: 30px;
+        text-align: center;
+        color:white;
+        background-color:#34013f;
+        position: relative;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .container {
+        font-size: 30px;
+        text-align:left;
+        position: relative;
+        left: 10px;
+        bottom: 230px;
+        color: white;
+    
+    }
+    
 }

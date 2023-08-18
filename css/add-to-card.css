@@ -100,7 +100,7 @@
 .cart{
     border: 2px solid black;
     height: 685px;
-    width:200vh;
+    width:208vh;
     margin:10px;
     padding: 10px;
     background-color: #301836;
@@ -239,3 +239,5 @@ ul li a {
 .multi{
     margin-left: 37px;
 }
+
+
